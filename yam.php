@@ -5,7 +5,7 @@
  * Plugin URI: http://aulaideal.com
  * Description: LearnPress is a WordPress complete solution for creating a Learning Management System (LMS). It can help you to create courses, lessons and quizzes.
  * Author: ThimPress2
- * Version: 1.9
+ * Version: 2.0
  * Requires at least: 5.8
  * Tested up to: 6.1.1
  * Requires PHP: 7.0
