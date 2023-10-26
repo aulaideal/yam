@@ -14,5 +14,25 @@
 
  */
 
+
+
+
+/* public function plugin_setup()
+{
+add_filter( 'upgrader_source_selection', array( $this, 'rename_github_zip' ), 1, 3);
+}
+
+
+public function rename_github_zip( $source, $remote_source, $thiz )
+{
+if( strpos( $source, 'github-plugin-for-wordpress') === false )
+return $source;
+
+$path_parts = pathinfo( $source );
+$newsource = trailingslashit( $path_parts['dirname'] ) . trailingslashit( 'github-plugin-for-wordpress' );
+rename( $source, $newsource );
+return $newsource;
+} */
 ?>
+
 <h1>HOL</h1>
