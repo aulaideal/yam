@@ -13,3 +13,6 @@
  * Text Domain: learnpress
 
  */
+
+?>
+<h1>HOL</h1>
