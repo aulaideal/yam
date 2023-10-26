@@ -15,6 +15,19 @@
  */
 
 
+require 'plugin-update-checker/plugin-update-checker.php';
+
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+    'https://github.com/aulaideal/yam/',
+    __FILE__,
+    'yam'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
+
 
 
 /* public function plugin_setup()
