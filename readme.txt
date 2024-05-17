@@ -4,7 +4,7 @@ Donate link: https://example.com/
 Tags: tag1, tag2
 Requires at least: 4.7
 Tested up to: 5.4
-Stable tag: 4.3
+Stable tag: 2.0
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -17,6 +17,8 @@ This is the long description.  No limit, and you can use Markdown (as well as in
 
 For backwards compatibility, if this section is missing, the full length of the short description will be used, and
 Markdown parsed.
+
+que tal
 
 A few notes about the sections above:
 
